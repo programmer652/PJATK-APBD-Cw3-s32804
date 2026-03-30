@@ -38,7 +38,8 @@ public static class DaneUczelni
             new Prowadzacy { Id = 1, Imie = "Ewa", Nazwisko = "Morawska", Katedra = "Data Engineering", DataZatrudnienia = new DateTime(2018, 10, 1) },
             new Prowadzacy { Id = 2, Imie = "Piotr", Nazwisko = "Jaworski", Katedra = "Cloud Solutions", DataZatrudnienia = new DateTime(2020, 2, 15) },
             new Prowadzacy { Id = 3, Imie = "Marta", Nazwisko = "Lewandowska", Katedra = "Business Analytics", DataZatrudnienia = new DateTime(2017, 9, 1) },
-            new Prowadzacy { Id = 4, Imie = "Adam", Nazwisko = "Sowa", Katedra = "Software Design", DataZatrudnienia = new DateTime(2019, 5, 10) }
+            new Prowadzacy { Id = 4, Imie = "Adam", Nazwisko = "Sowa", Katedra = "Software Design", DataZatrudnienia = new DateTime(2019, 5, 10) },
+            new Prowadzacy { Id = 5, Imie = "O", Nazwisko = "A", Katedra = "Software Design", DataZatrudnienia = new DateTime(2019, 5, 10) }
         ]);
 
         Przedmioty.AddRange(
@@ -68,7 +69,8 @@ public static class DaneUczelni
             new Zapis { Id = 13, StudentId = 8, PrzedmiotId = 6, DataZapisu = new DateTime(2026, 3, 3), OcenaKoncowa = 3.5, CzyAktywny = true },
             new Zapis { Id = 14, StudentId = 8, PrzedmiotId = 2, DataZapisu = new DateTime(2026, 3, 5), OcenaKoncowa = null, CzyAktywny = true },
             new Zapis { Id = 15, StudentId = 5, PrzedmiotId = 5, DataZapisu = new DateTime(2026, 3, 6), OcenaKoncowa = 4.5, CzyAktywny = false },
-            new Zapis { Id = 16, StudentId = 6, PrzedmiotId = 3, DataZapisu = new DateTime(2026, 3, 7), OcenaKoncowa = null, CzyAktywny = true }
+            new Zapis { Id = 16, StudentId = 6, PrzedmiotId = 3, DataZapisu = new DateTime(2026, 3, 7), OcenaKoncowa = null, CzyAktywny = true },
+            new Zapis { Id = 17, StudentId = 6, PrzedmiotId = 1, DataZapisu = new DateTime(2026, 3, 7), OcenaKoncowa = null, CzyAktywny = false }
         ]);
 
         _zainicjalizowano = true;
